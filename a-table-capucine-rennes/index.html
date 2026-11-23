@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="fr">
+<head><meta name="robots" content="noindex,nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>À table Capucine, fleuriste et café à Rennes</title>
+<meta name="description" content="Un fleuriste où l’on prend aussi un café. Pour les fêtes, vos clients commandent leurs bouquets en ligne et passent les chercher, même le dimanche.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fdf8f3;--surface:#fbe7d6;--ink:#2a1c12;--muted:color-mix(in srgb,#614f42 72%,#2a1c12);--line:#efd6c0;--accent:#c45a1c;--on-accent:#ffffff;--deep:#3a2414;--on-deep:#fdf3ea;--r:16px;--r-lg:26px;--fd:'Italiana',Georgia,serif;--fb:'Mulish',system-ui,sans-serif;--ease:cubic-bezier(.22,1,.36,1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--fb);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{display:block;max-width:100%}a{color:inherit}
+h1,h2,h3{font-family:var(--fd);font-weight:400;margin:0;letter-spacing:0;text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.demo{background:var(--deep);color:var(--on-deep);font-size:13px;text-align:center;padding:7px 16px}
+/* header */
+header{background:var(--bg);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:28px;height:72px}
+.logo{font-family:var(--fd);font-size:26px;font-weight:400;text-decoration:none;line-height:1;letter-spacing:0}
+nav{display:flex;gap:26px;margin-left:auto;font-size:15px}
+nav a{text-decoration:none;color:var(--muted);transition:color .15s}nav a:hover{color:var(--ink)}
+.hd .tel{font-weight:600;font-size:15px;text-decoration:none;font-variant-numeric:tabular-nums}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 22px;border-radius:999px;font:600 16px/1 var(--fb);text-decoration:none;border:0;cursor:pointer;transition:transform .16s var(--ease),background-color .16s,box-shadow .16s}
+.btn:active{transform:scale(.97)}
+.btn-a{background:var(--accent);color:var(--on-accent)}.btn-a:hover{box-shadow:0 6px 20px -8px var(--accent)}
+.btn-g{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}.btn-g:hover{box-shadow:inset 0 0 0 1.5px var(--ink)}
+.btn svg{width:19px;height:19px;flex:none}.btn{white-space:nowrap}.sm{display:none}
+.hd .btn{min-height:44px;padding:0 18px;font-size:15px}
+/* hero */
+.hero{display:grid;grid-template-columns:1.12fr 1fr;gap:56px;align-items:center;padding-block:56px 40px}
+.where{font-size:15px;color:var(--muted);margin-bottom:18px;display:flex;align-items:center;gap:8px}
+.where .dot{width:8px;height:8px;border-radius:50%;background:#2f9e5b}
+h1{font-size:clamp(42px,5.6vw,82px);line-height:1.02}
+.lede{font-size:19px;line-height:1.55;color:var(--muted);margin-top:22px;max-width:30em}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:30px;font-size:15px;color:var(--muted);padding:0;list-style:none}
+.facts li{display:flex;align-items:center;gap:8px}.facts svg{width:17px;height:17px;color:var(--accent)}
+.hero-media{display:grid;gap:14px}
+.hero-media .ph{aspect-ratio:4/4.9;border-radius:var(--r-lg);overflow:hidden;background:var(--surface)}
+.hero-media img{width:100%;height:100%;object-fit:cover;animation:settle 1.4s var(--ease) both}
+.hero-media .note{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;background:var(--surface);border-radius:var(--r);padding:14px 18px}
+.note b{display:block;font-size:15px}.note span{font-size:14px;color:var(--muted)}
+.hero-text>*{animation:rise .8s var(--ease) both}.hero-text>*:nth-child(2){animation-delay:.06s}.hero-text>*:nth-child(3){animation-delay:.12s}.hero-text>*:nth-child(4){animation-delay:.18s}.hero-text>*:nth-child(5){animation-delay:.24s}
+@keyframes rise{from{opacity:0}to{opacity:1}}
+@keyframes settle{from{opacity:.4}to{opacity:1}}
+/* sections */
+section{padding:88px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:40px}
+h2{font-size:clamp(34px,4vw,54px);line-height:1.06}
+.sh p{color:var(--muted);max-width:30em}
+/* offer */
+.offer{display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:auto auto;gap:24px}
+.it .ph{border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.it img{width:100%;height:100%;object-fit:cover;transition:opacity .3s}
+.it:hover img{opacity:.92}
+.it:first-child{grid-row:span 2}.it:first-child .ph{aspect-ratio:4/4.3}
+.it:not(:first-child){display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:end}.it:not(:first-child) .ph{aspect-ratio:1}
+.it h3{font-size:26px;line-height:1.15;margin:18px 0 6px}.it:not(:first-child) h3{margin-top:0}
+.it p{color:var(--muted);font-size:16px}
+.it .when{font-size:14px;font-weight:600;color:var(--accent);margin-top:10px;display:block}
+/* order */
+.order{background:var(--deep);color:var(--on-deep)}
+.order-g{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:start}
+.order h2{color:var(--on-deep)}
+.order .sub{opacity:.78;margin-top:16px;max-width:26em}
+.steps{list-style:none;padding:0;margin:34px 0 0;display:grid;gap:18px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:34px 1fr;gap:14px;counter-increment:s}
+.steps li::before{content:counter(s);width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:600;font-size:15px;box-shadow:inset 0 0 0 1.5px currentColor;opacity:.85}
+.steps b{display:block}.steps span{opacity:.75;font-size:15px}
+.alt{margin-top:34px;display:flex;flex-wrap:wrap;gap:10px}
+.alt a{color:var(--on-deep);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--on-deep) 35%,transparent)}
+.alt a:hover{box-shadow:inset 0 0 0 1.5px var(--on-deep)}
+form{background:var(--bg);color:var(--ink);border-radius:var(--r-lg);padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.f{display:grid;gap:7px}.f.full{grid-column:1/-1}
+label{font-size:14px;font-weight:600}
+input,select,textarea{font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1.5px solid transparent;border-radius:calc(var(--r) - 4px);padding:12px 14px;min-height:48px;width:100%;transition:border-color .15s,background-color .15s}
+input::placeholder,textarea::placeholder{color:color-mix(in srgb,var(--muted) 75%,transparent)}
+input:hover,select:hover,textarea:hover{border-color:var(--line)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);background:var(--bg)}
+textarea{min-height:96px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{font-weight:500;cursor:pointer}
+.chips label{display:inline-flex}.chips input{appearance:none;-webkit-appearance:none;margin:0;width:0;height:0;border:0;padding:0;min-height:0;opacity:0}
+.chips span{display:inline-flex;align-items:center;min-height:40px;padding:0 15px;border-radius:999px;background:var(--surface);font-size:15px;transition:background-color .15s,color .15s}
+.chips input:checked+span{background:var(--ink);color:var(--bg)}
+.chips input:focus-visible+span{outline:3px solid var(--accent);outline-offset:2px}
+form .btn{grid-column:1/-1;width:100%;min-height:54px;font-size:17px}
+.fine{grid-column:1/-1;font-size:13.5px;color:var(--muted);text-align:center}
+/* reviews */
+.rev{display:grid;grid-template-columns:1fr 1.3fr;gap:64px;align-items:center}
+.score{font-family:var(--fd);font-size:120px;line-height:.9;letter-spacing:-.03em;color:var(--line)}
+.stars{display:flex;gap:4px;margin:14px 0 10px;color:var(--accent)}.stars svg{width:26px;height:26px}
+.rev-copy{font-family:var(--fd);font-size:clamp(26px,2.6vw,34px);line-height:1.25}
+.rev-copy+p{color:var(--muted);margin-top:16px}
+.rev-slots{display:grid;gap:14px;margin-top:28px}
+.slot{border-radius:var(--r);background:var(--surface);padding:18px 20px;display:grid;grid-template-columns:40px 1fr;gap:14px;align-items:center}
+.slot i{width:40px;height:40px;border-radius:50%;background:var(--line)}
+.slot div{display:grid;gap:8px}.slot s{display:block;height:9px;border-radius:9px;background:var(--line);text-decoration:none}
+/* infos */
+.info{display:grid;grid-template-columns:1fr 1.2fr;gap:24px}
+.hours{background:var(--surface);border-radius:var(--r-lg);padding:30px 32px}
+.hours h3{font-size:28px;margin-bottom:18px}
+.hours table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.hours td{padding:12px 0;border-top:1px solid var(--line);font-size:16px}.hours td:last-child{text-align:right;color:var(--muted)}
+.hours tr.today td{font-weight:600;color:var(--ink)}
+.hours .addr{margin-top:22px;font-size:16px}.hours .addr b{display:block}
+.map{display:grid;gap:14px;align-content:start}.map svg{display:block;width:100%;height:auto;border-radius:var(--r-lg);background:#fbe7d6}
+.map .btn{justify-self:start}
+/* faq */
+.faq>*{max-width:760px}
+details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 0;font-weight:600;font-size:18px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;font-size:24px;font-weight:400;line-height:1}
+details[open] summary::after{content:"−"}
+details p{padding:0 0 22px;color:var(--muted);max-width:40em}
+footer{border-top:1px solid var(--line);padding:36px 0 40px;font-size:14px;color:var(--muted)}
+.ft{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+@media (max-width:900px){
+ body{font-size:16px}
+ nav,.hd .tel{display:none}.hd{height:62px;justify-content:space-between}.logo{font-size:22px}
+ .hero{grid-template-columns:1fr;gap:22px;padding-block:16px 48px}.hero-media{order:-1}.hero-media .ph{aspect-ratio:4/3.2}
+ .hero-media .ph{aspect-ratio:16/10}
+ .hero-media{gap:10px}.hero-media .note{padding:12px 14px}
+ .note b{font-size:14px}.note span{font-size:13px}
+ .lg{display:none}.sm{display:inline}
+ .cta-row{margin-top:26px;flex-wrap:nowrap}.cta-row .btn{flex:1 1 auto;padding:0 16px}
+ .where{margin-bottom:12px}.lede{margin-top:16px;color:var(--ink);opacity:.82}
+ h1{font-size:42px;line-height:1.04}.lede{font-size:17px}
+ section{padding:60px 0}.sh{display:block}.sh p{margin-top:12px}
+ .offer{grid-template-columns:1fr}.it:first-child{grid-row:auto}.it:first-child .ph{aspect-ratio:4/3}
+ .it:not(:first-child){grid-template-columns:120px 1fr;gap:16px}.it h3{font-size:22px}
+ .order-g,.rev,.info{grid-template-columns:1fr;gap:36px}
+ form{grid-template-columns:1fr;padding:22px}
+ .score{font-size:88px}
+ .hours{padding:24px}
+ .hd .btn-g{display:none}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="demo bar">Maquette de démonstration préparée pour À table Capucine. Photos et textes définitifs à choisir ensemble.</div>
+<header><div class="wrap hd">
+ <a class="logo" href="#">À table Capucine</a>
+ <nav aria-label="Navigation principale"><a href="#offre">Les bouquets</a><a href="#commande">Commander</a><a href="#avis">Avis</a><a href="#infos">Horaires et accès</a></nav>
+ <a class="tel" href="tel:+33981170913">09 81 17 09 13</a>
+ <a class="btn btn-a" href="#commande">Commander</a>
+</div></header>
+<main>
+<div class="wrap hero">
+ <div class="hero-text">
+  <p class="where"><span class="dot" aria-hidden="true"></span>Rue de Redon, Rennes</p>
+  <h1>Des fleurs et un café, rue de Redon</h1>
+  <p class="lede">Un fleuriste où l’on prend aussi un café. Pour les fêtes, vos clients commandent leurs bouquets en ligne et passent les chercher, même le dimanche.</p>
+  <div class="cta-row"><a class="btn btn-a" href="#commande"><span class="lg">Commander un bouquet</span><span class="sm">Commander</span></a><a class="btn btn-g" href="tel:+33981170913"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span class="lg">09 81 17 09 13</span><span class="sm">Appeler</span></a></div>
+  <ul class="facts"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Ouvert le dimanche</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Bouquets et café</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Commande à toute heure</li></ul>
+ </div>
+ <div class="hero-media">
+  <div class="ph"><img src="https://images.unsplash.com/photo-1487070183336-b863922373d4?w=1400&q=72&auto=format&fit=crop" alt="Boutique de fleurs pleine de bouquets" width="1200" height="1000" fetchpriority="high"></div>
+  <div class="note" aria-hidden="true"><b>Bouquets des fêtes</b><span>À récupérer avec un café</span></div>
+ </div>
+</div>
+
+<section id="offre"><div class="wrap">
+ <div class="sh"><h2>Fleurs et café</h2><p>Le site affichera vos vraies créations et votre carte.</p></div>
+ <div class="offer"><article class="it"><div class="ph"><img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=1000&q=72&auto=format&fit=crop" alt="Bouquet rose et blanc" loading="lazy"></div><div><h3>Bouquets du moment</h3><p>Composés selon les arrivages.</p><span class="when">Chaque jour d’ouverture</span></div></article><article class="it"><div class="ph"><img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=700&q=72&auto=format&fit=crop" alt="Tulipes" loading="lazy"></div><div><h3>Pour offrir</h3><p>Un bouquet prêt pour Noël.</p><span class="when">À réserver</span></div></article><article class="it"><div class="ph"><img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=700&q=72&auto=format&fit=crop" alt="Tournesols" loading="lazy"></div><div><h3>Événements</h3><p>Mariages et décorations.</p><span class="when">Sur rendez-vous</span></div></article></div>
+</div></section>
+
+<section id="commande" class="order"><div class="wrap order-g">
+ <div>
+  <h2>Commandez un bouquet en deux minutes</h2>
+  <p class="sub">Anniversaire, merci, deuil, mariage : vos clients commandent même quand la boutique est fermée.</p>
+  <ol class="steps"><li><div><b>Vous décrivez</b><span>L&#x27;occasion, les couleurs, le budget.</span></div></li><li><div><b>On compose</b><span>Un bouquet de saison, fait à la main.</span></div></li><li><div><b>Retrait ou livraison</b><span>En boutique ou livré à la bonne adresse.</span></div></li></ol>
+  <div class="alt"><a class="btn btn-g" href="tel:+33981170913"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Appeler le 09 81 17 09 13</a></div>
+ </div>
+ <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Demande envoyée, merci !'">
+  <div class="f full"><span style="font-size:14px;font-weight:600" id="lc">L&#x27;occasion</span><div class="chips" role="group" aria-labelledby="lc"><label><input type="radio" name="c" checked><span>Anniversaire</span></label><label><input type="radio" name="c"><span>Pour dire merci</span></label><label><input type="radio" name="c"><span>Deuil</span></label><label><input type="radio" name="c"><span>Mariage ou événement</span></label></div></div>
+  <div class="f"><label for="n">Votre nom</label><input id="n" autocomplete="name" placeholder="Camille Martin"></div>
+  <div class="f"><label for="t">Téléphone</label><input id="t" type="tel" autocomplete="tel" inputmode="tel" placeholder="06 12 34 56 78"></div>
+  <div class="f"><label for="d">Pour quand ?</label><input id="d" placeholder="ex. vendredi midi"></div>
+  <div class="f"><label for="q">Budget</label><input id="q" inputmode="numeric" placeholder="ex. 40 €"></div>
+  <div class="f full"><label for="m">Un détail à préciser ?</label><textarea id="m" placeholder="Couleurs préférées, petit mot à joindre…"></textarea></div>
+  <button class="btn btn-a" type="submit">Envoyer ma commande</button>
+  <p class="fine">La commande arrive directement par e-mail et SMS à la boutique.</p>
+ </form>
+</div></section>
+
+<section id="avis"><div class="wrap rev">
+ <div>
+  <div class="stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.3l-5.6 2.9 1.1-6.3L2.9 9.5l6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.3l-5.6 2.9 1.1-6.3L2.9 9.5l6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.3l-5.6 2.9 1.1-6.3L2.9 9.5l6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.3l-5.6 2.9 1.1-6.3L2.9 9.5l6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.3l-5.6 2.9 1.1-6.3L2.9 9.5l6.3-.9z"/></svg></div>
+  <p class="rev-copy">Vos avis Google, affichés ici et mis à jour tout seuls.</p>
+  <p>Un client qui hésite lit les avis avant de venir. Le site montre votre note et vos meilleurs commentaires, sans rien à faire de votre côté.</p>
+ </div>
+ <div class="rev-slots" aria-hidden="true">
+  <div class="slot"><i></i><div><s style="width:38%"></s><s style="width:92%"></s><s style="width:70%"></s></div></div>
+  <div class="slot"><i></i><div><s style="width:30%"></s><s style="width:85%"></s><s style="width:60%"></s></div></div>
+  <div class="slot"><i></i><div><s style="width:44%"></s><s style="width:96%"></s><s style="width:52%"></s></div></div>
+ </div>
+</div></section>
+
+<section id="infos" style="padding-top:0"><div class="wrap">
+ <div class="sh"><h2>Horaires et accès</h2><p>En plein centre de Rennes. Les fermetures exceptionnelles s&#x27;affichent ici.</p></div>
+ <div class="info">
+  <div class="hours"><h3>Horaires</h3><table><tbody><tr data-d="1"><td>Lundi</td><td>10 h à 19 h</td></tr><tr data-d="2"><td>Mardi</td><td>10 h à 19 h</td></tr><tr data-d="3"><td>Mercredi</td><td>10 h à 14 h 30</td></tr><tr data-d="4"><td>Jeudi</td><td>10 h à 19 h</td></tr><tr data-d="5"><td>Vendredi</td><td>10 h à 19 h</td></tr><tr data-d="6"><td>Samedi</td><td>Fermé</td></tr><tr data-d="0"><td>Dimanche</td><td>10 h à 15 h</td></tr></tbody></table>
+   <p class="addr"><b>À table Capucine</b>29 rue de Redon, 35000 Rennes</p></div>
+  <div class="map">
+   <svg viewBox="0 0 600 400" role="img" aria-label="Plan d'accès vers À table Capucine">
+    <rect width="600" height="400" fill="#fbe7d6"/>
+    <path d="M-20 300 C120 260 200 330 320 290 S520 210 640 240" stroke="#cfdde6" stroke-width="34" fill="none"/>
+    <g fill="#efd6c0"><rect x="20" y="20" width="120" height="80" rx="6"/><rect x="160" y="20" width="140" height="80" rx="6"/><rect x="320" y="20" width="110" height="80" rx="6"/><rect x="450" y="20" width="140" height="80" rx="6"/><rect x="20" y="120" width="90" height="110" rx="6"/><rect x="130" y="120" width="170" height="50" rx="6"/><rect x="130" y="186" width="170" height="44" rx="6"/><rect x="380" y="120" width="210" height="100" rx="6"/><rect x="20" y="330" width="170" height="60" rx="6"/><rect x="420" y="320" width="170" height="70" rx="6"/></g>
+    <g stroke="#ffffff" fill="none" stroke-linecap="round"><path d="M0 110 H600" stroke-width="12"/><path d="M310 0 V400" stroke-width="14"/><path d="M120 110 V260" stroke-width="8"/><path d="M0 240 L600 230" stroke-width="8"/><path d="M370 110 L440 400" stroke-width="7"/></g>
+    <g><rect x="224" y="128" width="177" height="38" rx="19" fill="#2a1c12"/><text x="312" y="152" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#fdf8f3">À table Capucine</text><circle cx="312" cy="182" r="13" fill="#2a1c12" opacity=".18"/><circle cx="312" cy="182" r="7" fill="#2a1c12"/></g>
+   </svg>
+   <a class="btn btn-a" href="https://www.google.com/maps/search/?api=1&query=%C3%80%20table%20Capucine%2029%20rue%20de%20Redon%2C%2035000%20Rennes">Itinéraire</a>
+  </div>
+ </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap faq">
+ <h2 style="margin-bottom:28px">Bon à savoir</h2>
+ <details><summary>Livrez-vous ?</summary><p>Selon le quartier : précisez l&#x27;adresse, la boutique vous confirme.</p></details><details><summary>Peut-on joindre un message ?</summary><p>Oui, écrivez-le dans la commande, il sera glissé dans le bouquet.</p></details><details><summary>Pour un mariage, comment faire ?</summary><p>Choisissez « Mariage ou événement » : la boutique vous rappelle pour en parler.</p></details>
+</div></section>
+</main>
+<footer><div class="wrap ft"><span>À table Capucine, fleuriste et café à Rennes</span><span>29 rue de Redon, 35000 Rennes</span><span>Mentions légales</span></div></footer>
+<script>var d=new Date().getDay();document.querySelectorAll(".hours tr").forEach(function(r){if(+r.dataset.d===d)r.classList.add("today")})</script></body>
+</html>
